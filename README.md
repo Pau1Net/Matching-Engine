@@ -193,4 +193,73 @@ Press `Ctrl+C` to gracefully stop all threads and exit the application.
 
 ## License
 
-This is an educational project demonstrating limit order book implementation.
+This is an educational project demonstrating limit order book implementation. DONT USE FOR REAL LIFE TRADES
+
+## RU Version
+# 🚀 High-Performance Limit Order Book (LOB)
+
+![C++](https://img.shields.io/badge/std-C%2B%2B17%20%7C%20C%2B%2B20-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Build](https://img.shields.io/badge/build-CMake-orange.svg)
+
+**Многопоточная симуляция биржевого ядра (Matching Engine) с визуализацией стакана в реальном времени.**
+
+Проект написан на **чистом C++** (STL only) без использования тяжеловесных фреймворков вроде Qt или Boost. Основная цель — демонстрация работы с конкурентностью (`std::thread`, `std::mutex`, `std::condition_variable`), структурами данных и алгоритмами сведения ордеров (Price-Time Priority).
+
+---
+
+## 📊 Демонстрация работы
+
+Приложение генерирует торговую активность, сводит ордера и рендерит "биржевой стакан" (Market Depth) прямо в консоли, используя ASCII-графику.
+
+```text
+╔════════════════════════════════════════════════════╗
+║        LIMIT ORDER BOOK - MARKET DEPTH            ║
+╚════════════════════════════════════════════════════╝
+
+          PRICE │        QUANTITY │       SIDE
+────────────────┼─────────────────┼───────────
+         102.50 │            6808 │        ASK
+         102.44 │            4304 │        ASK
+         102.42 │            2743 │        ASK
+         100.74 │            2356 │        ASK
+────────────────┴─────────────────┴───────────
+           SPREAD: 0.36
+────────────────┬─────────────────┬───────────
+          98.21 │            2045 │        BID
+          98.16 │            7961 │        BID
+          98.15 │            7202 │        BID
+────────────────┴─────────────────┴───────────
+
+┌────────────────────────────────────────────┐
+│ LAST TRADE                                 │
+├────────────────────────────────────────────┤
+│ Price:         98.57                       │
+│ Quantity:       3127                       │
+└────────────────────────────────────────────┘
+```
+## Сборка и Запуск
+
+```bash
+# Клонируем репозиторий
+git clone https://github.com/your-username/limit-order-book.git
+cd limit-order-book
+
+# Создаем директорию сборки
+mkdir build && cd build
+
+# Конфигурируем и собираем
+cmake ..
+cmake --build .
+
+# Запускаем
+./limit_order_book
+```
+Для сборки требуется компилятор с поддержкой C++17 и CMake версии 3.10+.
+
+## Данный проект является учебной симуляцией. Не используйте этот код для реальной торговли на финансовых рынках (хотя он и выглядит круто) :)
+
+
+
+
+
