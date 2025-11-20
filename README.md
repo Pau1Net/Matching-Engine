@@ -209,7 +209,7 @@ This is an educational project demonstrating limit order book implementation. DO
 
 **Многопоточная симуляция биржевого ядра (Matching Engine) с визуализацией стакана в реальном времени.**
 
-Проект написан на **чистом C++** (STL only) без использования тяжеловесных фреймворков вроде Qt или Boost. Основная цель — демонстрация работы с конкурентностью (`std::thread`, `std::mutex`, `std::condition_variable`), структурами данных и алгоритмами сведения ордеров (Price-Time Priority).
+Проект написан на **чистом C++** (STL only) без использования тяжеловесных фреймворков вроде Boost. Основная цель — демонстрация работы с конкурентностью (`std::thread`, `std::mutex`, `std::condition_variable`), структурами данных и алгоритмами сведения ордеров (Price-Time Priority).
 
 ---
 
