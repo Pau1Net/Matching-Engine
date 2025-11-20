@@ -1,7 +1,6 @@
 ( RU версия ниже )
 # Limit Order Book Matching Engine
 ![C++](https://img.shields.io/badge/std-C%2B%2B17%20%7C%20C%2B%2B20-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Build](https://img.shields.io/badge/build-CMake-orange.svg)
 
 
@@ -204,7 +203,6 @@ This is an educational project demonstrating limit order book implementation. DO
 
 **Многопоточная симуляция биржевого ядра (Matching Engine) с визуализацией стакана в реальном времени.**
 ![C++](https://img.shields.io/badge/std-C%2B%2B17%20%7C%20C%2B%2B20-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Build](https://img.shields.io/badge/build-CMake-orange.svg)
 
 **Многопоточная симуляция биржевого ядра (Matching Engine) с визуализацией стакана в реальном времени.**
