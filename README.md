@@ -1,5 +1,10 @@
 ( RU версия ниже )
 # Limit Order Book Matching Engine
+![C++](https://img.shields.io/badge/std-C%2B%2B17%20%7C%20C%2B%2B20-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Build](https://img.shields.io/badge/build-CMake-orange.svg)
+
+
 
 A high-performance simulation of a stock exchange trading core, implementing a limit order book with price-time priority matching algorithm.
 
@@ -196,8 +201,8 @@ Press `Ctrl+C` to gracefully stop all threads and exit the application.
 This is an educational project demonstrating limit order book implementation. DONT USE FOR REAL LIFE TRADES
 
 ## RU Version
-# 🚀 High-Performance Limit Order Book (LOB)
 
+**Многопоточная симуляция биржевого ядра (Matching Engine) с визуализацией стакана в реальном времени.**
 ![C++](https://img.shields.io/badge/std-C%2B%2B17%20%7C%20C%2B%2B20-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Build](https://img.shields.io/badge/build-CMake-orange.svg)
