@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b359d524464340e88af1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "limit_order_book",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "limit_order_book::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-limit_order_book-Debug-d029768693715b2d4da6.json",
+					"name" : "limit_order_book",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_order_book::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_order_book-Debug-241d9e663876d97d6e19.json",
+					"name" : "test_order_book",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/mac/Desktop/Coding/C++/limit_order_book/build/Qt_6_9_3_for_macOS-Debug",
+		"source" : "/Users/mac/Desktop/Coding/C++/limit_order_book"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
